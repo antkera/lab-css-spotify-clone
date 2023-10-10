@@ -6,3 +6,181 @@ Green: #00B172
 White: #FFF
 
 */
+/*
+#navigator {
+    /* background-color: #00B172 ; *//*
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    position: sticky;
+    flex-direction: column;
+}
+
+#navigator nav {
+    
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+
+#navigation ul{
+    position: sticky;
+    display: flexbox;
+    /* display: flex; *//*
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+header{
+    background-image: url(/images/landing.jpg) ;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    
+}
+header p {
+    text-align: center;
+    
+}
+h1{
+    font-size: 3rem;
+}
+#navBar {
+    display: flex;
+    justify-content: center;
+}
+#navigator {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    padding: 0 100px;
+    align-items: center;
+}
+#navigator img {
+    height: 30px;
+
+}
+#navigator ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 100px;
+}
+#navigator a {
+    color: black;
+text-decoration: none;
+}
+#navigator li {
+    padding: 0 6%;
+
+}
+header{
+    background-image: url(/images/landing.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header p {
+    width: 400px;
+}
+
+/* ------------------------------------------ */
+            /* wspoty */
+
+
+#wspoty {
+
+}
+.papabox{
+    border: 30px black;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.minibox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.minibox img{
+height: 70px;
+width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+            /* green zone */
+
+#green-zone {
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: center;
+    background-position-y: center ;
+    color: #FFF ;
+    background-color: #00B172 ;
+    display: flex;
+    justify-content: space-between;
+}
+#green-zone h4 {
+    
+    text-decoration: underline;
+
+}
+.Kanye img{
+    margin: 70px 60px 50px 0px;
+    width: 200px;    
+}
+.divprinc{
+    margin: 40px 50px;
+    width: 30%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
