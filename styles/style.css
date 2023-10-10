@@ -1,186 +1,157 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-/*
-#navigator {
-    /* background-color: #00B172 ; *//*
-    
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
-    position: sticky;
-    flex-direction: column;
-}
-
-#navigator nav {
-    
-    position: fixed;
-    display: flex;
-    flex-direction: row-reverse;
-    
-}
 
 
-#navigation ul{
-    position: sticky;
-    display: flexbox;
-    /* display: flex; *//*
-    justify-content: space-between;
-    background-color: blueviolet;
-}
-
-header{
-    background-image: url(/images/landing.jpg) ;
-    height: 200px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-body{
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header p {
-    text-align: center;
-    
+  text-align: center;
 }
-h1{
-    font-size: 3rem;
+h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
 }
 #navBar {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 #navigator {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 90%;
-    padding: 0 100px;
-    align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  padding: 0 100px;
+  align-items: center;
 }
 #navigator img {
-    height: 30px;
-
+  height: 30px;
 }
 #navigator ul {
-    display: flex;
-    list-style-type: none;
-    padding-right: 100px;
+  display: flex;
+  list-style-type: none;
+  padding-right: 100px;
 }
 #navigator a {
-    color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 #navigator li {
-    padding: 0 6%;
-
+  padding: 0 6%;
 }
-header{
-    background-image: url(/images/landing.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: auto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+header {
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 header p {
-    width: 400px;
+  width: 400px;
 }
 
 /* ------------------------------------------ */
-            /* wspoty */
-
+/* wspoty */
 
 #wspoty {
-
+  text-align: center;
 }
-.papabox{
-    border: 30px black;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
+.underline {
+  font-size: 22px;
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: fit-content;
+  border-color: #00b172;
 }
-.minibox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.underline2 {
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: fit-content;
+  border-color: white;
 }
-.minibox img{
-height: 70px;
-width: 90px;
+.papabox {
+  margin: 70px 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.minibox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.minibox h5 {
+  color: #00b172;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+.minibox img {
+  height: 70px;
+  width: 90px;
+}
+.minibox p {
+  width: 160px;
+}
 
 /* ------------------------------------------ */
-            /* green zone */
+/* green zone */
 
 #green-zone {
-    background-image: url(/images/spotify-icon-white.png);
-    background-repeat: no-repeat;
-    background-size: 10%;
-    background-position-x: center;
-    background-position-y: center ;
-    color: #FFF ;
-    background-color: #00B172 ;
-    display: flex;
-    justify-content: space-between;
+  padding-bottom: 1px;
+  height: 500px;
+  margin: 0 15px;
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position-x: center;
+  background-position-y: center;
+  color: #fff;
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-between;
 }
 #green-zone h4 {
-    
-    text-decoration: underline;
-
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 22px;
+  padding-bottom: 4px;
+  margin-right: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: 270px;
+  border-color: white;
 }
-.Kanye img{
-    margin: 70px 60px 50px 0px;
-    width: 200px;    
+#green-zone h6 {
+  font-size: 18px;
+  margin: 0px 0px 0 0;
 }
-.divprinc{
-    margin: 40px 50px;
-    width: 30%;
-    
-    
+#green-zone p {
+  font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Kanye img {
+  margin: 70px 60px 60px 0px;
+  width: 210px;
+}
+.divprinc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 50px 0 60px;
+  width: 30%;
+}
